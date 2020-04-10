@@ -35,6 +35,15 @@ rm *'*Bad*'*
     - `cat` : View file content - concatenate
     - `less`: View file content screen by screen.
          - then use `b` to go below, `/` to search for a keyword
+         - to scroll down, press : 
+             - j or ↓ to move down one line at a time
+             - d to move by half the page screen
+             - f to move by a whole page screen
+         - to scroll up, press
+             - k or ↑ to move _up_ one line at a time
+             - u to move by half the page screen
+             - b to move by a whole page screen
+         - press q to quit out of the log (returns to the regular command prompt)
 
   - **Searching**
 
